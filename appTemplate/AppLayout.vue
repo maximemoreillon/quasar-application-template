@@ -11,7 +11,7 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          {{ state.options.title || 'Untitled application'}}
         </q-toolbar-title>
 
         <q-btn icon="logout" @click="logout()" />
@@ -28,6 +28,7 @@
 
     </q-drawer>
 
+    <!-- TODO: Grey-ish background -->
     <q-page-container>
       <slot></slot>
     </q-page-container>

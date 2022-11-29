@@ -1,5 +1,6 @@
 <template>
-<q-layout view="lHh Lpr lFf">
+  <!-- TODO: consider having q-layout in AppLayout -->
+<q-layout view="hHh Lpr lFf">
 
     <AuthenticationWall v-if="authenticationRequired && !state.user"/>
 

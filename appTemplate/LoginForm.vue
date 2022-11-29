@@ -1,8 +1,10 @@
 <template>
     <q-form @submit="login()" class="q-gutter-md">
-        <q-card-section>
+        <q-card-section class="q-pa-md">
+
             <q-input v-model="credentials.username" label="Username"/>
-            <q-input v-model="credentials.password" label="password" type="password" />
+            <q-input v-model="credentials.password" label="password" type="password" class="q-mt-md"/>
+            
         </q-card-section>
         <q-card-actions align="center">
             <q-btn label="Login" icon="login" type="submit" color="primary" :loading="loading"/>
