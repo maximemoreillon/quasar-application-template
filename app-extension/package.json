@@ -1,0 +1,22 @@
+{
+  "name": "quasar-app-extension-quasar-application-template",
+  "version": "0.0.1",
+  "description": "A template for Quasar applications",
+  "author": "Maxime Moreillon",
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maximemoreillon/quasar-application-template"
+  },
+  "bugs": "",
+  "homepage": "https://github.com/maximemoreillon/quasar-application-template",
+  "dependencies": {
+    "quasar-ui-quasar-application-template": "latest"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  }
+}
